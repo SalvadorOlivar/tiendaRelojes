@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Relojeria Olivar</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Barra de Navegacion-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LOGO</a>
+
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stripe">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mapa">Ubicacion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercade.html">Acerca de</a>
+          </li>
+        </ul>
+      </nav>
+        <!--Portada-->      
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>
+            Relojeria Olivar
+            </h1>
+
+            <p>
+            Tienda de Relojes Online.
+            </p>
+            <a class="btn btn-primary" href="acercade.html">
+                Conoce mas
+            </a>
+        </div>
+    </header>
+
+    <section>
+      <!--tarjetas-->
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div title="Reloj Seiko" class="cover cover-small" style="background-image:url(imagenes/tarjeta-reloj0.jpg) ;">
+              
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Las Mejores Marcas del Mercado</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div title="Reloj Casio" class="cover cover-small" style="background-image:url(imagenes/tarjeta-reloj1.jpg) ;">
+              
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Las Mejores Marcas del Mercado</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+          <div title="Reloj Orient" class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div class="cover cover-small" style="background-image:url(imagenes/tarjeta-reloj2.jpg) ;">
+              
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Las Mejores Marcas del Mercado</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--Ilustracion-->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5">
+            <img
+              src="imagenes/GroovySittingDoodle.svg"
+              alt="analiscis de datos"
+            />
+          </div>
+
+          <div class="col-12 col-sm-6" >
+            <h3>
+              Como mas te guste!!
+            </h3>
+            <p>
+              Ordena tu Reloj a domicilio o visitanos en nuestra tienda!
+            </p>
+            <a href="#mapa">Ir a mapa!</a>
+          </div>      
+        </div>
+        <!--Formulario-->
+        <form action="">
+          <label for="email">correo electronico</label>
+          <div class="d-flex">
+            <div class="flex-fill mr-2">             
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--Tira de Productos-->
+    <section>
+      <div class="container mt-5 mb-5" id="stripe">
+        <div class="product-stripe">
+          <div class="stripe-container">
+              <div class="card">
+                <div title="Reloj Edifice" class="cover cover-small" style="background-image:url(imagenes/relojEdifice.jpg) ;">
+                
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Reloj Casio Edifice</h5>
+                  <span class="badge badge-info">$2000</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <div title="Reloj Curren" class="cover cover-small" style="background-image:url(imagenes/relojCurren.jpg) ;">
+                
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Reloj Curren</h5>
+                  <span class="badge badge-info">$900</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <div title="Reloj Casio" class="cover cover-small" style="background-image:url(imagenes/relojCasio.jpg) ;">
+                
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Reloj Casio</h5>
+                  <span class="badge badge-info">$1500</span>
+                </div>
+              </div>
+
+              <div class="card">
+                <div title="Reloj Tommy Hilfiger" class="cover cover-small" style="background-image:url(imagenes/RelojTommy.jpg) ;">
+                
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Reloj Tommy Hilfiger</h5>
+                  <span class="badge badge-info">$1500</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <!--Mapa-->
+    <section>
+      <div class="container mt-5 mb-5" id="mapa">
+        <h4>
+          Aqui nos Vemos!
+        </h4>
+        <p>
+          Juan Paullier 2269, Montevideo Uruguay.
+        </p>
+        <div class="responsive-iframe">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.815319114651!2d-56.17340578500499!3d-34.88598358038735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8044bf7d25d5%3A0xbc04abe8bfacc159!2sJuan%20Paullier%202269%2C%2011800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1592274274381!5m2!1ses-419!2suy" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        
+      </div>
+    </section>
+  </body>
+</html>
